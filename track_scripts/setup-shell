@@ -41,6 +41,7 @@ echo "export TF_VAR_subscription=${INSTRUQT_AZURE_SUBSCRIPTION_INFOBLOX_TENANT_S
 echo "export TF_VAR_client=${INSTRUQT_AZURE_SUBSCRIPTION_INFOBLOX_TENANT_SPN_ID} " >> /root/.bashrc
 echo "export TF_VAR_clientsecret=${INSTRUQT_AZURE_SUBSCRIPTION_INFOBLOX_TENANT_SPN_PASSWORD} " >> /root/.bashrc
 echo "export TF_VAR_tenantazure=${INSTRUQT_AZURE_SUBSCRIPTION_INFOBLOX_TENANT_TENANT_ID} " >> /root/.bashrc
+echo "export TF_VAR_instruqt_id=${INSTRUQT_PARTICIPANT_ID} " >> /root/.bashrc
 echo "export Infoblox_Token=${Infoblox_Token} " >> /root/.bashrc
 echo "export INSTRUQT_EMAIL=${INSTRUQT_USER_EMAIL} " >> /root/.bashrc
 
@@ -61,6 +62,7 @@ cd /root/infoblox-lab/secure-ai-infoblox/scripts
 python3 create_user.py
 sleep 10
 python3 create_sandbox.py
+sleep 180
 
 
 # Run terraform to prepare CSPs env and spin up Infoblox resources

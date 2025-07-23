@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euxo pipefail
-cd /root/infoblox-lab/Infoblox-PoC/scripts
+cd /root/infoblox-lab/secure-ai-infoblox/scripts
 
 
 
