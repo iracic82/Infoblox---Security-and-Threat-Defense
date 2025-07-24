@@ -104,4 +104,10 @@ azure_subscriptions:
   roles:
   - Owner
 secrets:
+- name: DEMO_AWS_SECRET_ACCESS_KEY
+- name: DEMO_AWS_ACCESS_KEY_ID
+- name: DEMO_HOSTED_ZONE_ID
+- name: INFOBLOX_EMAIL
+- name: INFOBLOX_PASSWORD
+- name: TF_VAR_windows_admin_password
 - name: Infoblox_Token
