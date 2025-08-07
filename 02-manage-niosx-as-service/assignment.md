@@ -374,7 +374,7 @@ To enable and use NIOS-X as a Service perform the following workflow:
 
 
 
-## 1. Create a Service Deployment on Infoblox CSP for NIOS-X as a Service.
+## 1. Create a Service Deployment on Infoblox Portal for NIOS-X as a Service.
 
 
 This portion of the guide is intended to guide Infoblox Portal administrators through the creation of a Service
