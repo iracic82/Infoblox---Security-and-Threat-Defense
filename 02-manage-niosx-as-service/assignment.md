@@ -396,7 +396,7 @@ following steps:
 
 ![Jun-23-2025_at_22.02.25-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/93ab9e2e7e0b83e03438ded03cbde983/assets/Jun-23-2025_at_22.02.25-image.png)
 6.  Select **DNS** here.
-![Jun-23-2025_at_22.03.23-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/33f711000fbe493d64381cb68e157d03/assets/Jun-23-2025_at_22.03.23-image.png)
+![Screenshot 2025-08-07 at 13.31.06.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/7ac935709da3ddf994d4d749035be891/assets/Screenshot%202025-08-07%20at%2013.31.06.png)
 ![Screenshot 2025-07-10 at 16.32.17.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/9351147ebbee194d378a0a37e44cd1be/assets/Screenshot%202025-07-10%20at%2016.32.17.png)
 7.  Keep the default settings as they are and click **Add Capability**.
 ![Screenshot 2025-07-10 at 16.23.49.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/9142ec33e9893647f058899664683d48/assets/Screenshot%202025-07-10%20at%2016.23.49.png)
