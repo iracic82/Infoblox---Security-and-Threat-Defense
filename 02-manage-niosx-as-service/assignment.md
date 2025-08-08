@@ -480,7 +480,7 @@ Copy Service IP from below into the Infoblox portal
 - Click **Add**
 - **Provider** -  **AWS**
 - **Type** - **Cloud VPN**
-- **Region** - **Select as Earlier selected Location in Service Deployment**
+- **Region** - **Select as stated on the Lab Diagram - Europe(London)**
 - **Name** -  **name your access location**
 
 Name for access location
@@ -489,17 +489,17 @@ Name for access location
 Instrqt-AL
 ```
 
-![Screenshot 2025-07-08 at 07.50.50.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/5bdb7a6782169745576c54eae56c5ebd/assets/Screenshot%202025-07-08%20at%2007.50.50.png)
+![Screenshot 2025-08-08 at 11.14.57.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/5a1b1624f5af488f3a7d37e681176726/assets/Screenshot%202025-08-08%20at%2011.14.57.png)
 17.  Configure **CONNECTION**.
 17.1 click **Add Primary**.
 ![Jun-23-2025_at_23.18.57-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/6de0d05fa4742d9e6a281a7af4aa4a48/assets/Jun-23-2025_at_23.18.57-image.png)
 - give name to your primary connection
-- configure **PATH**
+- configure **Tunnel**
 - click **Add Primary**
-![Jun-23-2025_at_23.21.04-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/9c4b41a974989ff6f43432c4180680f6/assets/Jun-23-2025_at_23.21.04-image.png)
-- Configure **Add Primary Path**
-![Jun-23-2025_at_23.26.16-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/f9122b5e626f3b211dea91ee73e5a23c/assets/Jun-23-2025_at_23.26.16-image.png)
-- **Access IP Address**  -  Give in a dummy IP as we will configure this later again.
+![Screenshot 2025-08-08 at 10.00.08.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/8046778c72f8abf6a43158b6f8957cf4/assets/Screenshot%202025-08-08%20at%2010.00.08.png)
+- Configure **Add Primary Tunnel**
+![Screenshot 2025-08-08 at 10.01.22.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/9a8e391b0ec54e8c05ca66b47dbd66e8/assets/Screenshot%202025-08-08%20at%2010.01.22.png)
+- **Tunnel Outside IP**  -  Give in a dummy IP as we will configure this later again.
 - Click  **Add Credential**
 - Select **New**
 ![Jun-23-2025_at_23.27.38-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/bebd8949b63de9bc605f58dabbd0dc64/assets/Jun-23-2025_at_23.27.38-image.png)
@@ -516,9 +516,9 @@ InfobloxDNSLab2025.
 - Click **Add Credential**
 ![Jun-23-2025_at_23.46.30-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/43bdbf13333297d12646d12d39553f83/assets/Jun-23-2025_at_23.46.30-image.png)
 - Configure **BGP**
-- enter the Dummy values at  **Neighbor IP Address**  and  **Access Location ASN   as it will be reconfigured.
-- Click **Add Primary Path**
-![Jun-23-2025_at_23.33.24-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/473b4aed0aa79cd469105096fd782c69/assets/Jun-23-2025_at_23.33.24-image.png)
+- Enter the Dummy values at  **Inside IPv4 CIDR**  and  **Access Location ASN   as it will be reconfigured.
+- Click **Add Primary Tunnel**
+![Screenshot 2025-08-08 at 10.03.28.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/8aefc8c1eb02aaaaded59ceaff9ec17e/assets/Screenshot%202025-08-08%20at%2010.03.28.png)
 - Click **Add Primary Connection**
 ![Jun-23-2025_at_23.33.40-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/9a26d9c5857aa778823016db47fca9b8/assets/Jun-23-2025_at_23.33.40-image.png)
 17.2 (Optional) click **Add Secondary**.
@@ -532,10 +532,10 @@ InfobloxDNSLab2025.
 
 ![Jun-23-2025_at_23.41.20-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/341cc0537721ae693255e72b7a45a9e5/assets/Jun-23-2025_at_23.41.20-image.png)
 - give name to your secondary connection
-- configure **PATH**
+- configure **Tunnel**
 - click **Add Secondary**
-![Jun-23-2025_at_23.42.48-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/30268ed660cd4bb79353427fd892c92c/assets/Jun-23-2025_at_23.42.48-image.png)
-- **Access IP Address**  -  Give in a dummy IP as we will configure this later again.
+![Screenshot 2025-08-08 at 10.04.15.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/b10ce1db09d998ad8566d119c89c3ff6/assets/Screenshot%202025-08-08%20at%2010.04.15.png)
+- **Tunnel Outside IP**  -  Give in a dummy IP as we will configure this later again.
 - Click  **Add Credential**
 - Select **New**
 ![Jun-23-2025_at_23.44.36-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/de93ac2733f1895567a7d6f612f86f1f/assets/Jun-23-2025_at_23.44.36-image.png)
@@ -552,17 +552,25 @@ InfobloxDNSLab2025.
 - Click **Add Credential**
 ![Jun-23-2025_at_23.46.30-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/43bdbf13333297d12646d12d39553f83/assets/Jun-23-2025_at_23.46.30-image.png)
 - Configure **BGP**
-- enter the Dummy values at  **Neighbor IP Address**  and  **Access Location ASN   as it will be reconfigured.
-- Click **Add Secondary Path**
-![Jun-23-2025_at_23.48.19-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/df4fae96328440b4d55dfa99199929ef/assets/Jun-23-2025_at_23.48.19-image.png)
-- Click **Add Primary Connection** ![Jun-23-2025_at_23.48.39-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/20187257b5fabe28df90fa9b985e8a04/assets/Jun-23-2025_at_23.48.39-image.png)
+- Enter the Dummy values at  **Inside IPv4 CIDR**  and  **Access Location ASN**   as it will be reconfigured.
+![Screenshot 2025-08-08 at 10.05.46.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/94d528496651f10cb298ca3c80a6bdcf/assets/Screenshot%202025-08-08%20at%2010.05.46.png)
+- Click **Add Secondary Tunnel**
+![Screenshot 2025-08-08 at 10.05.53.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/410eb0aca7ce1098481e67670752f56b/assets/Screenshot%202025-08-08%20at%2010.05.53.png)
+- Click **Add Secondary Connection**
+![Jun-23-2025_at_23.48.39-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/20187257b5fabe28df90fa9b985e8a04/assets/Jun-23-2025_at_23.48.39-image.png)
 - Finally click **Add Location**
 ![Jun-23-2025_at_23.49.59-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/0292d885d013c51a6b63219811845420/assets/Jun-23-2025_at_23.49.59-image.png)
-- Click **Add Deployment*
+- Click **Add Deployment**
 ![Jun-23-2025_at_23.50.51-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/3c81136d742b21361dd092d245fcdf53/assets/Jun-23-2025_at_23.50.51-image.png)
-18.  Click **save** to save changes.
+18.  Click **Save** to save changes.
+
+> [!NOTE]
+> 📝 NOTE:
+After editing the instructions, make sure to save your changes. To reveal the “Save Changes” button scroll around the portal using the trackpad or mouse until the button appears.
+The button may be hidden by default depending on screen size or browser zoom level.
+
 ![Jun-23-2025_at_23.51.38-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/48c0f3e058adfa068d6b08f800a4b348/assets/Jun-23-2025_at_23.51.38-image.png)
-19.  Refresh the Webpage.
+19.  Wait approximately 3 minutes, then Refresh the Webpage
 20.  You will see a Ready Status here.
 ![Jun-24-2025_at_00.03.36-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/925ad34b8029024c613494d7a41feedd/assets/Jun-24-2025_at_00.03.36-image.png)
 21.  On that same page where is says **Ready Status** ( screenshot in the previous step 20 ) click on **Instrqt-AL** - it's a hyperlink below Location.
@@ -702,21 +710,21 @@ In the AWS Console, use the search bar at the top and type VPC, then click on th
 2. Go to Tunnel-1 that you configured in step 23 of 2.
 3. Copy **Outside IP address** of Tunnel-1.
 4. Log in to your Infoblox Portal again and navigate to  Configure >Service Deployment >As-A-Service > **Your service**.
-5. Click on three dots in front of your **service name** and click edit.
+5. Click on three dots associated with your NIOS-X-as-a-Service deployment service name and click Edit.
 ![Jun-24-2025_at_12.06.47-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/91cf73f8583026f6103666275ac94d88/assets/Jun-24-2025_at_12.06.47-image.png)
-6. Click on three dots in front of your **SERVICE DEPLOYMENTS** and click **EDIT**.
+6. Click on three dots in front of your service deployment in the Service Deployments panel and click Edit.
 ![Jun-24-2025_at_12.07.10-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/adad18ceee12e2a5453f289c6db0477b/assets/Jun-24-2025_at_12.07.10-image.png)
 7. In the **Access Location** click on the drop downs and select your Access Location and click on three dots and select edit.
 ![Screenshot 2025-07-08 at 08.52.57.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/9a767deff7cb972f2298d0d547733b6b/assets/Screenshot%202025-07-08%20at%2008.52.57.png)
 8. On **Edit Access Location window** select **Primary Connection**.
 ![Jun-24-2025_at_13.29.19-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/9a91abda47aedd83ab9f691e81024933/assets/Jun-24-2025_at_13.29.19-image.png)
-9. In PATH select Primary.
-![Jun-24-2025_at_13.29.59-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/003a521643951450f9ba3d3a5bf78784/assets/Jun-24-2025_at_13.29.59-image.png)
-10. Change Access IP Address as **Outside IP address** of Tunnel-1   of VPN-1from step 3 of 3.
-11. On **BGP** in **Neighbor IP Address**   update the **Inside IPv4 CIDR** of Tunnel-1 on AWS side.
+9. Under the Connection header click Primary.
+![Screenshot 2025-08-08 at 10.27.59.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/8684a9ab0849ad5363a96c77d8e8d060/assets/Screenshot%202025-08-08%20at%2010.27.59.png)
+10. Change Inside IPv4 CIDR as **Outside IP address** of Tunnel-1   of VPN-1from step 3 of 3.
+11. On **BGP** in **Inside IPv4 CIDR**   update the **Inside IPv4 CIDR** of Tunnel-1 on AWS side.
 
 > [!IMPORTANT]
-	> NOTE: Neighbor IP is 169.254.21.1
+	> NOTE: Neighbor IP is 169.254.21.1/30
 
 13. For **Access Location ASN** copy paste the value from **Amazon ASN**  **64512**.
 
@@ -724,19 +732,21 @@ In the AWS Console, use the search bar at the top and type VPC, then click on th
 64512
 ```
 
-14. Click Edit Primary Path.
-![Jun-24-2025_at_13.35.42-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/a967dd664f3562de2106e09d89f926a4/assets/Jun-24-2025_at_13.35.42-image.png)
+![Screenshot 2025-08-08 at 10.29.20.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/b0f84a150264779463c4f958df747784/assets/Screenshot%202025-08-08%20at%2010.29.20.png)
+
+14. Click Edit Primary Tunnel.
+![Screenshot 2025-08-08 at 10.29.44.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/8e10e7dbb55d7cffbf796bbf65a5791e/assets/Screenshot%202025-08-08%20at%2010.29.44.png)
 15. Click Edit Primary Connection.
 ![Jun-24-2025_at_13.35.58-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/4f432f179e2ae47dd1d294d8cf50b54a/assets/Jun-24-2025_at_13.35.58-image.png)
 16. On **Edit Access Location window** select **Secondary Connection**.
 ![Jun-24-2025_at_13.37.15-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/cd5fdbf2ce9f6acdada6a4de379e0b8d/assets/Jun-24-2025_at_13.37.15-image.png)
-17. In PATH select Secondary.
-![Jun-24-2025_at_13.37.54-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/7c2a4fceec55690705047d0bcc776f99/assets/Jun-24-2025_at_13.37.54-image.png)
-18. Change Access IP Address as **Outside IP address** of Tunnel-1   of VPN-2 from step 3 of 3.
-19. On **BGP** in **Neighbor IP Address**   update the **Inside IPv4 CIDR** of Tunnel-1 of VPN-2 on AWS side.
+17. Under the Tunnel header, click Secondary.
+![Screenshot 2025-08-08 at 10.30.37.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/2abeb04604b20cad3824d30790843c3b/assets/Screenshot%202025-08-08%20at%2010.30.37.png)
+18. Change Tunnel Outside IP as **Outside IP address** of Tunnel-1   of VPN-2 from step 3 of 3.
+19. On **BGP** in **Inside IPv4 CIDR**   update the **Inside IPv4 CIDR** of Tunnel-1 of VPN-2 on AWS side.
 
 > [!IMPORTANT]
-> NOTE: Neighbor IP is 169.254.22.1
+> NOTE: Neighbor IP is 169.254.22.1/30
 
 
 20. For **Access Location ASN** copy paste the value from **Amazon ASN**  **64512**.
@@ -745,8 +755,8 @@ In the AWS Console, use the search bar at the top and type VPC, then click on th
 64512
 ```
 
-21.  Click Edit Secondary Path.
-![Jun-24-2025_at_13.47.38-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/6eaa5395975a2913394d52224a734657/assets/Jun-24-2025_at_13.47.38-image.png)
+21.  Click Edit Secondary Tunnel.
+![Screenshot 2025-08-08 at 10.30.58.png](https://play.instruqt.com/assets/tracks/26xnz6aweydm/7368af1152702ac69d6bd312a2118db8/assets/Screenshot%202025-08-08%20at%2010.30.58.png)
 22. Click Edit Secondary Connection.
 ![Jun-24-2025_at_13.49.11-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/54e8706e0a06c6ce3a9d9d1d2cb3d9c9/assets/Jun-24-2025_at_13.49.11-image.png)
 23. Click Update Location.
