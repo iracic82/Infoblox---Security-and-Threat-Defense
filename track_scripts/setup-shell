@@ -44,6 +44,8 @@ echo "export TF_VAR_tenantazure=${INSTRUQT_AZURE_SUBSCRIPTION_INFOBLOX_TENANT_TE
 echo "export TF_VAR_instruqt_id=${INSTRUQT_PARTICIPANT_ID} " >> /root/.bashrc
 echo "export Infoblox_Token=${Infoblox_Token} " >> /root/.bashrc
 echo "export INSTRUQT_EMAIL=${INSTRUQT_USER_EMAIL} " >> /root/.bashrc
+echo "export INFOBLOX_EMAIL=${INFOBLOX_EMAIL} " >> /root/.bashrc
+echo "export INFOBLOX_PASSWORD=${INFOBLOX_PASSWORD} " >> /root/.bashrc
 
 # GCP project and credentials
 echo "export TF_VAR_projectid=${INSTRUQT_GCP_PROJECT_INFOBLOX_DEMO_PROJECT_ID}" >> /root/.bashrc
