@@ -600,9 +600,9 @@ In the left window of the lab environment, click on the AWS Console tab to launc
 
 Use the login credentials provided in the previous section 1)  to sign in.
 
-1. Now we will create 2 x  **Costumer Gateways**.
+1. Now we will create 2 x  **Customer Gateways**.
 2. Go to Virtual private network (VPN)>Customer gateways.
-3. Click on **Create Costumer Gateway**.(creating the first CGW ).
+3. Click on **Create Customer Gateway**.(creating the first CGW ).
 ![Jun-24-2025_at_00.51.52-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/c60386be95ea7d93eedef258630122df/assets/Jun-24-2025_at_00.51.52-image.png)
 4. Fill in Details as mentioned below:
 - **Name tag** - name for you CGW (optional).
@@ -610,7 +610,7 @@ Use the login credentials provided in the previous section 1)  to sign in.
 - **IP Address** -  this will be the value of first IP in Cloud Service IP under Service Deployment.(These are the Public IPs)
 - Fill in the option fields if you wish to
 ![Jun-24-2025_at_10.39.43-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/86f6db94075cc1e20e596f538aba50a6/assets/Jun-24-2025_at_10.39.43-image.png)
-5. Click on **Create Costumer Gateway**.(creating the second CGW ).
+5. Click on **Create Customer Gateway**.(creating the second CGW ).
 ![Jun-24-2025_at_00.51.52-image.png](https://play.instruqt.com/assets/tracks/atmmwsclkofd/c60386be95ea7d93eedef258630122df/assets/Jun-24-2025_at_00.51.52-image.png)
 6. Fill in Details as mentioned below:
 - **Name tag** - name for you CGW (optional).
