@@ -72,7 +72,7 @@ Once Infoblox Threat Defense is up and running, it immediately kicks into gear t
 - Real-time enforced protection using TIDE and RPZ policies from dozens of feeds such as MalwareC2, BOT, APT, Suspicious, and many more.
 - Dozens of curated threat intel feeds are pre-loaded and ready to block malicious traffic.
 - Instant inline AI-driven blocking stops threats live, with no waiting for backend analysis.
-- Zero Day protection blocks never-before-seen suspicious domains, verifying them with a <99.9% false positive rate.
+- Zero Day Protection blocks never-before-seen suspicious domains with exceptional accuracy — featuring a false positive rate of less than 0.0002%, as validated by our Threat Intelligence data.
 - High-risk content like gambling and adult sites is filtered with built-in web protection.
 - App blocking for unsanctioned file sharing, messaging, or remote access tools directly at the DNS level.
 
