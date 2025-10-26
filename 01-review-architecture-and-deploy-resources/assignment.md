@@ -47,10 +47,10 @@ DNS remains one of the most exploited, and yet least secured layers in modern ne
 As enterprises expand into cloud and hybrid architectures, DNS visibility becomes fragmented — and threat actors exploit the gaps.
 
 This hands-on lab demonstrates how to enforce DNS security across distributed environments using Infoblox NIOS X-as-a-Service and Threat Intelligence. We simulate a hybrid setup with:
-	•	An AWS VPC acting as a remote branch/client site
-	•	A centralized DNS hub using Infoblox SaaS
-	•	IPsec-secured tunnels for DNS transport
-	•	Live DNS threat enforcement in the data path
+- An AWS VPC acting as a remote branch/client site
+- A centralized DNS hub using Infoblox SaaS
+- IPsec-secured tunnels for DNS transport
+- Live DNS threat enforcement in the data path
 
 # Use Case Story: ACME Corp
 
